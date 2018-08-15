@@ -1108,6 +1108,13 @@ p, li, a{
   text-align: center;
 }
 
+.container-cat *[id]:before {
+  display: block;
+  content: " ";
+  margin-top: -150px;
+  padding-top: 150px;
+}
+
 /* CLEARFIX */
 
 .cf:before,
