@@ -4,16 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <title>USA AUTO SEAT COVER</title>
-  <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
-  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
-
+  <?PHP
+    include './top-imports.php';
+  ?>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
 
   <div class="site-outer">
@@ -31,7 +26,7 @@
             </div>
 
   					<div class="logotype">
-  						<div class="big navbar-title"><a href="./index.html"><img src="./img/logo.png" class="site-logo"></a></div>
+  						<div class="big navbar-title"><a href="./index.php"><img src="./img/logo.png" class="site-logo"></a></div>
   					</div>
 
   					<div class="checkout">
@@ -91,7 +86,7 @@
             <h1 class="text-center head blue"><img src="./img/category/brands/chevy.png" style="width: 250px; height: auto;"></h1>
             <br>
             <div class="row">
-              <a href="./category/1.html">
+              <a href="./category/1.php">
               <div class="col-cat-2">
                 <h3 class="text-center cat-tab-design">Silverado</h3>
                 <div class="sm-box sm-box-cat" style="background-image: url('./img/category/cars/silverado.png');">
@@ -99,7 +94,7 @@
               </div>
               </a>
               <div class="col-cat-2">
-                <a href="./category/2.html"><h3 class="text-center cat-tab-design">Suburban</h3></a>
+                <a href="./category/2.php"><h3 class="text-center cat-tab-design">Suburban</h3></a>
                 <div class="sm-box sm-box-cat" style="background-image: url('./img/category/cars/suburban.png');">
                 </div>
               </div>
@@ -107,12 +102,12 @@
 
             <div class="row">
               <div class="col-cat-2">
-                <a href="./category/3.html"><h3 class="text-center cat-tab-design">Tahoe</h3></a>
+                <a href="./category/3.php"><h3 class="text-center cat-tab-design">Tahoe</h3></a>
                 <div class="sm-box sm-box-cat" style="background-image: url('./img/category/cars/tahoe.png');">
                 </div>
               </div>
               <div class="col-cat-2">
-                <a href="./category/4.html"><h3 class="text-center cat-tab-design">Express</h3></a>
+                <a href="./category/4.php"><h3 class="text-center cat-tab-design">Express</h3></a>
                 <div class="sm-box sm-box-cat" style="background-image: url('./img/category/cars/express.png');">
                 </div>
               </div>
@@ -127,7 +122,7 @@
 
             <div class="row">
               <div class="col-cat-2">
-                <a href="./category/5.html"><h3 class="text-center cat-tab-design">Ram</h3></a>
+                <a href="./category/5.php"><h3 class="text-center cat-tab-design">Ram</h3></a>
                 <div class="sm-box sm-box-cat" style="background-image: url('./img/category/cars/ram.png');">
                 </div>
               </div>
@@ -142,25 +137,12 @@
 
             <div class="row">
               <div class="col-cat-2">
-                <a href="./category/5.html"><h3 class="text-center cat-tab-design">Expedition</h3></a>
+                <a href="./category/5.php"><h3 class="text-center cat-tab-design">Expedition</h3></a>
                 <div class="sm-box sm-box-cat" style="background-image: url('');">
                 </div>
               </div>
               <div class="col-cat-2">
-                <a href="./category/6.html"><h3 class="text-center cat-tab-design">Excursion</h3></a>
-                <div class="sm-box sm-box-cat" style="background-image: url('');">
-                </div>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-cat-2">
-                <a href="./category/5.html"><h3 class="text-center cat-tab-design">Explorer</h3></a>
-                <div class="sm-box sm-box-cat" style="background-image: url('');">
-                </div>
-              </div>
-              <div class="col-cat-2">
-                <a href="./category/6.html"><h3 class="text-center cat-tab-design">Ford F150</h3></a>
+                <a href="./category/6.php"><h3 class="text-center cat-tab-design">Excursion</h3></a>
                 <div class="sm-box sm-box-cat" style="background-image: url('');">
                 </div>
               </div>
@@ -168,12 +150,12 @@
 
             <div class="row">
               <div class="col-cat-2">
-                <a href="./category/5.html"><h3 class="text-center cat-tab-design">Ford F250</h3></a>
+                <a href="./category/5.php"><h3 class="text-center cat-tab-design">Explorer</h3></a>
                 <div class="sm-box sm-box-cat" style="background-image: url('');">
                 </div>
               </div>
               <div class="col-cat-2">
-                <a href="./category/6.html"><h3 class="text-center cat-tab-design">Ford F350</h3></a>
+                <a href="./category/6.php"><h3 class="text-center cat-tab-design">Ford F150</h3></a>
                 <div class="sm-box sm-box-cat" style="background-image: url('');">
                 </div>
               </div>
@@ -181,7 +163,20 @@
 
             <div class="row">
               <div class="col-cat-2">
-                <a href="./category/5.html"><h3 class="text-center cat-tab-design">Ford F450</h3></a>
+                <a href="./category/5.php"><h3 class="text-center cat-tab-design">Ford F250</h3></a>
+                <div class="sm-box sm-box-cat" style="background-image: url('');">
+                </div>
+              </div>
+              <div class="col-cat-2">
+                <a href="./category/6.php"><h3 class="text-center cat-tab-design">Ford F350</h3></a>
+                <div class="sm-box sm-box-cat" style="background-image: url('');">
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-cat-2">
+                <a href="./category/5.php"><h3 class="text-center cat-tab-design">Ford F450</h3></a>
                 <div class="sm-box sm-box-cat" style="background-image: url('');">
                 </div>
               </div>
@@ -196,12 +191,12 @@
 
             <div class="row">
               <div class="col-cat-2">
-                <a href="./category/5.html"><h3 class="text-center cat-tab-design">Sierra</h3></a>
+                <a href="./category/5.php"><h3 class="text-center cat-tab-design">Sierra</h3></a>
                 <div class="sm-box sm-box-cat" style="background-image: url('');">
                 </div>
               </div>
               <div class="col-cat-2">
-                <a href="./category/6.html"><h3 class="text-center cat-tab-design">Yukon</h3></a>
+                <a href="./category/6.php"><h3 class="text-center cat-tab-design">Yukon</h3></a>
                 <div class="sm-box sm-box-cat" style="background-image: url('');">
                 </div>
               </div>
@@ -216,7 +211,7 @@
 
             <div class="row">
               <div class="col-cat-2">
-                <a href="./category/5.html"><h3 class="text-center cat-tab-design">H2</h3></a>
+                <a href="./category/5.php"><h3 class="text-center cat-tab-design">H2</h3></a>
                 <div class="sm-box sm-box-cat" style="background-image: url('');">
                 </div>
               </div>
@@ -231,7 +226,7 @@
 
             <div class="row">
               <div class="col-cat-2">
-                <a href="./category/5.html"><h3 class="text-center cat-tab-design">Cherokee</h3></a>
+                <a href="./category/5.php"><h3 class="text-center cat-tab-design">Cherokee</h3></a>
                 <div class="sm-box sm-box-cat" style="background-image: url('');">
                 </div>
               </div>
@@ -247,7 +242,7 @@
 
             <div class="row">
               <div class="col-cat-2">
-                <a href="./category/5.html"><h3 class="text-center cat-tab-design">Navigator</h3></a>
+                <a href="./category/5.php"><h3 class="text-center cat-tab-design">Navigator</h3></a>
                 <div class="sm-box sm-box-cat" style="background-image: url('');">
                 </div>
               </div>
@@ -258,93 +253,18 @@
       </section>
     </div>
 
-    <footer class="footer-inner footer-distributed">
-
-      <div class="footer-left">
-        <img src="./img/logo.png" style="padding: 5px 0; height: 45px; width: auto;background: rgba(0, 0, 0, .5);">
-
-        <p class="footer-links">
-          <a href="./index.html">Home</a>
-          ·
-          <a href="./navbar/about.html">About Us</a>
-          ·
-          <a href="./navbar/contact.html">Contact</a>
-          ·
-          <a href="./navbar/services.html">Services</a>
-          ·
-          <a href="./navbar/FAQ.html">FAQ</a>
-        </p>
-
-        <p class="footer-company-name">USA AUTO SEAT COVER  &copy; 2018</p>
-      </div>
-
-      <div class="footer-center">
-
-        <div>
-          <i class="fa fa-map-marker"></i>
-          <p><span>6131 Beechnut st.</span> Houston, Texas, 77074</p>
-        </div>
-
-        <div>
-          <i class="fa fa-phone"></i>
-          <p>(713) 261-7380</p>
-        </div>
-
-        <div>
-          <i class="fa fa-envelope"></i>
-          <p><a href="mailto:parnian_tah@yahoo.com">parnian_tah@yahoo.com</a></p>
-        </div>
-
-      </div>
-
-      <div class="footer-right">
-
-        <p class="footer-company-about">
-          <span>About USA AUTO SEAT COVER</span>
-          Our service has been on eBay for a few years, and we have the plan of expanding our business to Amazon and other online venues.
-        </p>
-
-        <div class="footer-icons">
-
-          <a href="#"><i><img src="https://cdn4.iconfinder.com/data/icons/flat-brand-logo-2/512/ebay-512.png" style="height: 42px; width: auto;"></i></a>
-          <a href="#"><i class="fa fa-amazon" style="height: 42px; width: auto; padding-top: 10px;"></i></a>
-
-        </div>
-
-      </div>
-
-    </footer>
+    <!-- FOOTER -->
+    <?PHP
+      include './footer.php';
+    ?>
 
     <!-- NAVIGATION -->
-    <div class="navigation">
-      <div class="navigation-content">
-        <h3 class="blue">Menu</h3>
-        <ul class="navigation-menu">
-          <li class="blue"><a href="./index.html" class="active">Home</a></li>
-          <li><b>CARS:</b></li>
-          <li><a href="./index.html#chevrolet"><i class="blue fa fa-circle"></i> Chevrolet</a></li>
-          <li><a href="./index.html#dodge"><i class="blue fa fa-circle"></i> Dodge</a></li>
-          <li><a href="./index.html#ford"><i class="blue fa fa-circle"></i> Ford</a></li>
-          <li><a href="./index.html#gmc"><i class="blue fa fa-circle"></i> GMC</a></li>
-          <li><a href="./index.html#hummer"><i class="blue fa fa-circle"></i> Hummer</a></li>
-          <li><a href="./index.html#jeep"><i class="blue fa fa-circle"></i> Jeep</a></li>
-          <li><a href="./index.html#lincoln"><i class="blue fa fa-circle"></i> Lincoln</a></li>
-        </ul>
-        <h3 class="blue">More</h3>
-        <ul class="navigation-menu">
-          <li><a href="./navbar/about.html">About Us</a></li>
-          <li><a href="./navbar/contact.html">Contact</a></li>
-          <li><a href="./navbar/services.html">Services</a></li>
-          <li><a href="./navbar/FAQ.html">FAQ</a></li>
-        </ul>
-      </div>
-    </div>
+    <?PHP
+      include './navigation.php';
+    ?>
   </div>
-  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-  <script src='http://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
-  <script src='http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.0/handlebars.min.js'></script>
-  <script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
-  <script  src="./js/index.js"></script>
-  <script>includeHTML();</script>
+  <?PHP
+    include './bottom-imports.php';
+  ?>
 </body>
 </html>
