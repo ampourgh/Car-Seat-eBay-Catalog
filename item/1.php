@@ -47,20 +47,47 @@
 
             <a href="../category/1.php"><span class="go-back glyphicon glyphicon-chevron-left"></span></a>
 
-  					<h1 class="text-center head blue">Car Seat Dark Grey</h1>
-  					<div class="row">
-    					<div class="item-col">
-    						<img src="../img/item/car-seat-1.jpg" style="height: 400px; width: auto; box-shadow: 0 1px 1px 1px rgba(0, 0, 0, .3);">
-  						</div>
-              <div class="item-col">
-                <p><b>Description:</b> This is where the description goes.</p>
-                <a href="https://www.ebay.com/itm/03-07-Chevy-Silverado-Tahoe-Suburban-Driver-Bottom-Vinyl-seat-cover-Dark-GRAY/122956833748?hash=item1ca0cc63d4:g:YugAAOSwFPRZwcmk"><img src="../img/ebay.svg" style="height: 35px; width: auto;"></a>
-                <br><br>
-                <a href="https://www.paypal.com/signin?country.x=US&locale.x=en_US"><img src="../img/paypal.png" style="height: 35px; width: auto;"></a>
-                <br><br>
-                <p style="font-size:10px;"><b>Disclaimer:</b> This is where the disclaimer goes.</p>
-              </div>
-  					</div>
+            <?php
+
+              if(isset($_GET['item'])) {
+                include '../conn.php';
+
+                $selectedItem = $_GET['item'];
+
+                $sql = "SELECT * FROM heroku_52e2b92d5188bd3.seatCover WHERE scName == '$selectedItem'";
+                // h
+                $result = mysqli_query($conn, $sql);
+
+                if (mysqli_num_rows($result) > 0) {
+                  // output data of each row
+                  while($row = mysqli_fetch_assoc($result)) {
+                    echo '<h1 class="text-center head blue">' . $row["scName"] . '</h1>
+                          <div class="row">
+                            <div class="item-col">
+                              <img src="../img/item/car-seat-1.jpg" style="height: 400px; width: auto; box-shadow: 0 1px 1px 1px rgba(0, 0, 0, .3);">
+                            </div>
+                            <div class="item-col">
+                              <p><b>Description:</b> ' . $row["description"] . '</p>
+                              <a href="' . $row["eBayURL"] . '"><img src="../img/ebay.svg" style="height: 35px; width: auto;"></a>
+                              <br><br>
+                              <a href="' . $row["payPalURL"] . '"><img src="../img/paypal.png" style="height: 35px; width: auto;"></a>
+                              <br><br>
+                              <p style="font-size:10px;"><b>Disclaimer:</b> ' . $row["disclaimer"] . '</p>
+                            </div>
+                          </div>';
+
+                  }
+                } else {
+                  echo "0 results";
+                }
+
+              }
+
+
+
+             ?>
+
+
             <br><br><br>
             <div class="row">
               <div class="col-thumbnail">
