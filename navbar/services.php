@@ -58,19 +58,14 @@
       </section>
     </div>
 
-
-      <!-- FOOTER -->
-      <?PHP
-        include '../footer.php';
-      ?>
-
-      <!-- NAVIGATION -->
-      <?PHP
-        include '../navigation.php';
-      ?>
-    </div>
     <?PHP
-      include '../bottom-imports.php';
+      include './footer.php';
+
+      include './navigation.php';
+
+      echo '</div>';
+
+      include './bottom-imports.php';
     ?>
   </body>
 </html>
