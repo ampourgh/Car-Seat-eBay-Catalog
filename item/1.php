@@ -54,7 +54,7 @@
 
                 $selectedItem = $_GET['item'];
 
-                $sql = "SELECT * FROM heroku_52e2b92d5188bd3.seatCover WHERE scName == '$selectedItem'";
+                $sql = "SELECT * FROM heroku_52e2b92d5188bd3.seatCover WHERE scName = '$selectedItem'";
                 // h
                 $result = mysqli_query($conn, $sql);
 

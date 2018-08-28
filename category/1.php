@@ -45,116 +45,49 @@
             <a href="../index.php"><span class="go-back glyphicon glyphicon-chevron-left"></span></a>
 
             <h1 class="text-center head blue">Products</h1>
-            <div class="row">
 
-              <div class="col-md-3 col-sm-6 col-xs-12">
-                <a href="../item/1.php">
+            <?php
 
-                  <h3 class="text-center">Car Seat Dark Grey</h3>
+              if(isset($_GET['car'])) {
+                include '../conn.php';
 
-                  <div class="sm-box" style="background-image: url('img/item/car-seat-1.jpg');">
-                    <div class="sm-box-overlay"></div>
-                    <div class="sm-box-basket"><a href="#" class="button button-blue" data-toggle="modal" data-target="#modal">Select</a></div>
-                    <div class="sm-box-content" style="height: 6rem;"><span style="font-size: 12px;" class="red">You save: <b>$97.00 (58% off)</b></span><br><i class="fa fa-chevron-right"></i> <span>Price: <b>US $68.00</b></span></div>
-                  </div>
-                </a>
-              </div>
-              <div class="col-md-3 col-sm-6 col-xs-12">
-                <h3 class="text-center">Item</h3>
-                <div class="sm-box" style="background-image: url('');">
-                  <div class="sm-box-overlay"></div>
-                  <div class="sm-box-basket"><a href="#" class="button button-blue" data-toggle="modal" data-target="#modal">Select</a></div>
-                  <div class="sm-box-content"><i class="fa fa-chevron-right"></i> Order now $ 230.00</div>
-                </div>
-              </div>
-              <div class="col-md-3 col-sm-6 col-xs-12">
-                <h3 class="text-center">Item</h3>
-                <div class="sm-box" style="background-image: url('');">
-                  <div class="sm-box-overlay"></div>
-                  <div class="sm-box-basket"><a href="#" class="button button-blue" data-toggle="modal" data-target="#modal">Select</a></div>
-                  <div class="sm-box-content"><i class="fa fa-chevron-right"></i> Order now $ 150.00</div>
-                </div>
-              </div>
-              <div class="col-md-3 col-sm-6 col-xs-12">
-                <h3 class="text-center">Item</h3>
-                <div class="sm-box" style="background-image: url('');">
-                  <div class="sm-box-overlay"></div>
-                  <div class="sm-box-basket"><a href="#" class="button button-blue" data-toggle="modal" data-target="#modal">Select</a></div>
-                  <div class="sm-box-content"><i class="fa fa-chevron-right"></i> Order now $ 200.00</div>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-3 col-sm-6 col-xs-12">
-                <h3 class="text-center">Item</h3>
-                <div class="sm-box" style="background-image: url('');">
-                  <div class="sm-box-overlay"></div>
-                  <div class="sm-box-basket"><a href="#" class="button button-blue" data-toggle="modal" data-target="#modal">Select</a></div>
-                  <div class="sm-box-content"><i class="fa fa-chevron-right"></i> Order now $ 150.00</div>
-                </div>
-              </div>
-              <div class="col-md-3 col-sm-6 col-xs-12">
-                <h3 class="text-center">Item</h3>
-                <div class="sm-box" style="background-image: url('');">
-                  <div class="sm-box-overlay"></div>
-                  <div class="sm-box-basket"><a href="#" class="button button-blue" data-toggle="modal" data-target="#modal">Select</a></div>
-                  <div class="sm-box-content"><i class="fa fa-chevron-right"></i> Order now $ 230.00</div>
-                </div>
-              </div>
-              <div class="col-md-3 col-sm-6 col-xs-12">
-                <h3 class="text-center">Item</h3>
-                <div class="sm-box" style="background-image: url('');">
-                  <div class="sm-box-overlay"></div>
-                  <div class="sm-box-basket"><a href="#" class="button button-blue" data-toggle="modal" data-target="#modal">Select</a></div>
-                  <div class="sm-box-content"><i class="fa fa-chevron-right"></i> Order now $ 150.00</div>
-                </div>
-              </div>
-              <div class="col-md-3 col-sm-6 col-xs-12">
-                <h3 class="text-center">Item</h3>
-                <div class="sm-box" style="background-image: url('');">
-                  <div class="sm-box-overlay"></div>
-                  <div class="sm-box-basket"><a href="#" class="button button-blue" data-toggle="modal" data-target="#modal">Select</a></div>
-                  <div class="sm-box-content"><i class="fa fa-chevron-right"></i> Order now $ 200.00</div>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-3 col-sm-6 col-xs-12">
-                <h3 class="text-center">Item</h3>
-                <div class="sm-box" style="background-image: url('');">
-                  <div class="sm-box-overlay"></div>
-                  <div class="sm-box-basket"><a href="#" class="button button-blue" data-toggle="modal" data-target="#modal">Select</a></div>
-                  <div class="sm-box-content"><i class="fa fa-chevron-right"></i> Order now $ 150.00</div>
-                </div>
-              </div>
-              <div class="col-md-3 col-sm-6 col-xs-12">
-                <h3 class="text-center">Item</h3>
-                <div class="sm-box" style="background-image: url('');">
-                  <div class="sm-box-overlay"></div>
-                  <div class="sm-box-basket"><a href="#" class="button button-blue" data-toggle="modal" data-target="#modal">Select</a></div>
-                  <div class="sm-box-content"><i class="fa fa-chevron-right"></i> Order now $ 230.00</div>
-                </div>
-              </div>
-              <div class="col-md-3 col-sm-6 col-xs-12">
-                <h3 class="text-center">Item</h3>
-                <div class="sm-box" style="background-image: url('');">
-                  <div class="sm-box-overlay"></div>
-                  <div class="sm-box-basket"><a href="#" class="button button-blue" data-toggle="modal" data-target="#modal">Select</a></div>
-                  <div class="sm-box-content"><i class="fa fa-chevron-right"></i> Order now $ 150.00</div>
-                </div>
-              </div>
-              <div class="col-md-3 col-sm-6 col-xs-12">
-                <h3 class="text-center">Item</h3>
-                <div class="sm-box" style="background-image: url('');">
-                  <div class="sm-box-overlay"></div>
-                  <div class="sm-box-basket"><a href="#" class="button button-blue" data-toggle="modal" data-target="#modal">Select</a></div>
-                  <div class="sm-box-content"><i class="fa fa-chevron-right"></i> Order now $ 200.00</div>
-                </div>
-              </div>
-            </div>
+                $selectedCar = $_GET['car'];
 
-          </div>
-        </div>
+                $sql = "SELECT * FROM heroku_52e2b92d5188bd3.seatCover WHERE car = '$selectedCar'";
+                $result = mysqli_query($conn, $sql);
+
+                if (mysqli_num_rows($result) > 0) {
+                  // output data of each row
+                  while($row = mysqli_fetch_assoc($result)) {
+
+                      echo '<div class="col-md-3 col-sm-6 col-xs-12">';
+                        echo '<a href="../item/1.php">
+
+                                <h3 class="text-center">' . $row["scName"] . '</h3>
+
+                                <div class="sm-box" style="background-image: url(../img/item/car-seat-1.jpg);">
+                                  <div class="sm-box-overlay"></div>
+                                  <div class="sm-box-basket"><a href="#" class="button button-blue" data-toggle="modal" data-target="#modal">Select</a></div>
+                                  <div class="sm-box-content" style="height: 6rem;"><span style="font-size: 12px;" class="red">You save: <b>$97.00 (58% off)</b></span><br><i class="fa fa-chevron-right"></i> <span>Price: <b>US $68.00</b></span></div>
+                                </div>
+                              </a>
+                            </div>
+
+                          </div>';
+
+                      echo '</div>';
+
+                  }
+                } else {
+                  echo "0 results";
+                }
+
+              }
+
+
+
+             ?>
+
       </section>
     </div>
 
