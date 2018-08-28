@@ -45,26 +45,29 @@
 
             <br><br>
 
-            <a href="../category/1.php"><span class="go-back glyphicon glyphicon-chevron-left"></span></a>
-
             <?php
 
               if(isset($_GET['item'])) {
                 include '../conn.php';
 
                 $selectedItem = $_GET['item'];
+                $selectedCar = $_GET['car'];
 
-                $sql = "SELECT * FROM heroku_52e2b92d5188bd3.seatCover WHERE scName = '$selectedItem'";
+                $sql = "SELECT * FROM heroku_52e2b92d5188bd3.seatCover WHERE scName = '$selectedItem' AND car = '$selectedCar'";
                 // h
                 $result = mysqli_query($conn, $sql);
 
                 if (mysqli_num_rows($result) > 0) {
                   // output data of each row
+
+
                   while($row = mysqli_fetch_assoc($result)) {
-                    echo '<h1 class="text-center head blue">' . $row["scName"] . '</h1>
+                    $seatCoverIMG = str_replace(' ', '', $row["scName"]);
+                    echo '<a href="../category/1.php?car=' . $row["car"] . '"><span class="go-back glyphicon glyphicon-chevron-left"></span></a>
+                          <h1 class="text-center head blue">' . $row["scName"] . '</h1>
                           <div class="row">
                             <div class="item-col">
-                              <img src="../img/item/car-seat-1.jpg" style="height: 400px; width: auto; box-shadow: 0 1px 1px 1px rgba(0, 0, 0, .3);">
+                              <img src="../img/item/' . $seatCoverIMG . '.png" style="height: 400px; width: auto; box-shadow: 0 1px 1px 1px rgba(0, 0, 0, .3);">
                             </div>
                             <div class="item-col">
                               <p><b>Description:</b> ' . $row["description"] . '</p>
@@ -78,7 +81,7 @@
 
                   }
                 } else {
-                  echo "0 results";
+                  echo "<br><br><br><b>0 results</b>";
                 }
 
               }

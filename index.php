@@ -86,7 +86,7 @@
             <h1 class="text-center head blue"><img src="./img/category/brands/chevy.png" style="width: 250px; height: auto;"></h1>
             <br>
             <div class="row">
-              <a href="./category/1.php">
+              <a href="./category/1.php?car=Silverado">
               <div class="col-cat-2">
                 <h3 class="text-center cat-tab-design">Silverado</h3>
                 <div class="sm-box sm-box-cat" style="background-image: url('./img/category/cars/silverado.png');">
@@ -94,7 +94,7 @@
               </div>
               </a>
               <div class="col-cat-2">
-                <a href="./category/2.php"><h3 class="text-center cat-tab-design">Suburban</h3></a>
+                <a href="./category/1.php?car=Suburban"><h3 class="text-center cat-tab-design">Suburban</h3></a>
                 <div class="sm-box sm-box-cat" style="background-image: url('./img/category/cars/suburban.png');">
                 </div>
               </div>
@@ -102,12 +102,12 @@
 
             <div class="row">
               <div class="col-cat-2">
-                <a href="./category/3.php"><h3 class="text-center cat-tab-design">Tahoe</h3></a>
+                <a href="./category/1.php?car=Tahoe"><h3 class="text-center cat-tab-design">Tahoe</h3></a>
                 <div class="sm-box sm-box-cat" style="background-image: url('./img/category/cars/tahoe.png');">
                 </div>
               </div>
               <div class="col-cat-2">
-                <a href="./category/4.php"><h3 class="text-center cat-tab-design">Express</h3></a>
+                <a href="./category/1.php?car=Express"><h3 class="text-center cat-tab-design">Express</h3></a>
                 <div class="sm-box sm-box-cat" style="background-image: url('./img/category/cars/express.png');">
                 </div>
               </div>
@@ -122,7 +122,7 @@
 
             <div class="row">
               <div class="col-cat-2">
-                <a href="./category/5.php"><h3 class="text-center cat-tab-design">Ram</h3></a>
+                <a href="./category/1.php?car=Ram"><h3 class="text-center cat-tab-design">Ram</h3></a>
                 <div class="sm-box sm-box-cat" style="background-image: url('./img/category/cars/ram.png');">
                 </div>
               </div>
@@ -137,12 +137,12 @@
 
             <div class="row">
               <div class="col-cat-2">
-                <a href="./category/5.php"><h3 class="text-center cat-tab-design">Expedition</h3></a>
+                <a href="./category/1.php?car=Expedition"><h3 class="text-center cat-tab-design">Expedition</h3></a>
                 <div class="sm-box sm-box-cat" style="background-image: url('./img/category/cars/expedition.png');">
                 </div>
               </div>
               <div class="col-cat-2">
-                <a href="./category/6.php"><h3 class="text-center cat-tab-design">Excursion</h3></a>
+                <a href="./category/1.php?car=Excursion"><h3 class="text-center cat-tab-design">Excursion</h3></a>
                 <div class="sm-box sm-box-cat" style="background-image: url('./img/category/cars/excursion.png');">
                 </div>
               </div>
@@ -150,12 +150,12 @@
 
             <div class="row">
               <div class="col-cat-2">
-                <a href="./category/5.php"><h3 class="text-center cat-tab-design">Explorer</h3></a>
+                <a href="./category/1.php?car=Explorer"><h3 class="text-center cat-tab-design">Explorer</h3></a>
                 <div class="sm-box sm-box-cat" style="background-image: url('./img/category/cars/explorer.png');">
                 </div>
               </div>
               <div class="col-cat-2">
-                <a href="./category/6.php"><h3 class="text-center cat-tab-design">Ford F150</h3></a>
+                <a href="./category/1.php?car=F150"><h3 class="text-center cat-tab-design">Ford F150</h3></a>
                 <div class="sm-box sm-box-cat" style="background-image: url('./img/category/cars/150.png');">
                 </div>
               </div>
@@ -163,12 +163,12 @@
 
             <div class="row">
               <div class="col-cat-2">
-                <a href="./category/5.php"><h3 class="text-center cat-tab-design">Ford F250</h3></a>
+                <a href="./category/1.php?car=F250"><h3 class="text-center cat-tab-design">Ford F250</h3></a>
                 <div class="sm-box sm-box-cat" style="background-image: url('./img/category/cars/250.png');">
                 </div>
               </div>
               <div class="col-cat-2">
-                <a href="./category/6.php"><h3 class="text-center cat-tab-design">Ford F350</h3></a>
+                <a href="./category/1.php?car=F350"><h3 class="text-center cat-tab-design">Ford F350</h3></a>
                 <div class="sm-box sm-box-cat" style="background-image: url('./img/category/cars/350.png');">
                 </div>
               </div>
@@ -176,7 +176,7 @@
 
             <div class="row">
               <div class="col-cat-2">
-                <a href="./category/5.php"><h3 class="text-center cat-tab-design">Ford F450</h3></a>
+                <a href="./category/1.php?car=F450"><h3 class="text-center cat-tab-design">Ford F450</h3></a>
                 <div class="sm-box sm-box-cat" style="background-image: url('./img/category/cars/450.png');">
                 </div>
               </div>
@@ -191,12 +191,12 @@
 
             <div class="row">
               <div class="col-cat-2">
-                <a href="./category/5.php"><h3 class="text-center cat-tab-design">Sierra</h3></a>
+                <a href="./category/1.php?car=Sierra"><h3 class="text-center cat-tab-design">Sierra</h3></a>
                 <div class="sm-box sm-box-cat" style="background-image: url('./img/category/cars/sierra.png');">
                 </div>
               </div>
               <div class="col-cat-2">
-                <a href="./category/6.php"><h3 class="text-center cat-tab-design">Yukon</h3></a>
+                <a href="./category/1.php?car=Yukon"><h3 class="text-center cat-tab-design">Yukon</h3></a>
                 <div class="sm-box sm-box-cat" style="background-image: url('./img/category/cars/yukon.png');">
                 </div>
               </div>
@@ -211,7 +211,7 @@
 
             <div class="row">
               <div class="col-cat-2">
-                <a href="./category/5.php"><h3 class="text-center cat-tab-design">H2</h3></a>
+                <a href="./category/1.php?car=H2"><h3 class="text-center cat-tab-design">H2</h3></a>
                 <div class="sm-box sm-box-cat" style="background-image: url('./img/category/cars/h2.png');">
                 </div>
               </div>
@@ -226,7 +226,7 @@
 
             <div class="row">
               <div class="col-cat-2">
-                <a href="./category/5.php"><h3 class="text-center cat-tab-design">Cherokee</h3></a>
+                <a href="./category/1.php?car=Cherokee"><h3 class="text-center cat-tab-design">Cherokee</h3></a>
                 <div class="sm-box sm-box-cat" style="background-image: url('./img/category/cars/cherokee.png');">
                 </div>
               </div>
@@ -242,7 +242,7 @@
 
             <div class="row">
               <div class="col-cat-2">
-                <a href="./category/5.php"><h3 class="text-center cat-tab-design">Navigator</h3></a>
+                <a href="./category/1.php?car=Navigator"><h3 class="text-center cat-tab-design">Navigator</h3></a>
                 <div class="sm-box sm-box-cat" style="background-image: url('./img/category/cars/navigator.png');">
                 </div>
               </div>

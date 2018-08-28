@@ -42,9 +42,12 @@
   		<section class="container-fluid">
   			<div class="row mg">
           <div class="container">
+
+            <br><br>
+
             <a href="../index.php"><span class="go-back glyphicon glyphicon-chevron-left"></span></a>
 
-            <h1 class="text-center head blue">Products</h1>
+            <h1 class="text-center head blue">Seat Covers for <?PHP echo $_GET['car']; ?></h1>
 
             <?php
 
@@ -57,25 +60,38 @@
                 $result = mysqli_query($conn, $sql);
 
                 if (mysqli_num_rows($result) > 0) {
+
+                  $numOfRows = mysqli_num_rows($result);
+
                   // output data of each row
+
+                  $counter = 0;
                   while($row = mysqli_fetch_assoc($result)) {
 
-                      echo '<div class="col-md-3 col-sm-6 col-xs-12">';
-                        echo '<a href="../item/1.php">
+                      $seatCoverIMG = str_replace(' ', '', $row["scName"]);
+
+                      if ($counter == 0) {
+                        echo '<div class="row">';
+                      }
+
+                        echo '<div class="col-md-3 col-sm-6 col-xs-12">
+                                <a href="../item/1.php?item=' . $row["scName"] . '&car=' . $_GET['car'] . '">
 
                                 <h3 class="text-center">' . $row["scName"] . '</h3>
 
-                                <div class="sm-box" style="background-image: url(../img/item/car-seat-1.jpg);">
+                                <div class="sm-box" style="background-image: url(../img/item/' . $seatCoverIMG . '.png);">
                                   <div class="sm-box-overlay"></div>
-                                  <div class="sm-box-basket"><a href="#" class="button button-blue" data-toggle="modal" data-target="#modal">Select</a></div>
-                                  <div class="sm-box-content" style="height: 6rem;"><span style="font-size: 12px;" class="red">You save: <b>$97.00 (58% off)</b></span><br><i class="fa fa-chevron-right"></i> <span>Price: <b>US $68.00</b></span></div>
+                                  <div class="sm-box-basket"><a href="../item/1.php?item=' . $row["scName"] . '&car=' . $_GET['car'] . '" class="button button-blue" data-toggle="modal" data-target="#modal">Select</a></div>
+                                  <div class="sm-box-content" style="height: 6rem;"><span style="font-size: 12px;" class="red">You save: <b>' . $row["clearance"] . '</b></span><br><i class="fa fa-chevron-right"></i> <span>Price: <b>US ' . $row["reducedPrice"] . '</b></span></div>
                                 </div>
                               </a>
-                            </div>
+                            </div>';
 
-                          </div>';
+                      $counter += 1;
 
-                      echo '</div>';
+                      if ($counter == 3 || 0 >= $numOfRows - $counter) {
+                        echo '</div>';
+                      }
 
                   }
                 } else {
