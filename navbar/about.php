@@ -73,13 +73,13 @@
     </div>
 
     <?PHP
-      include './footer.php';
+      include '../footer.php';
 
-      include './navigation.php';
+      include '../navigation.php';
 
       echo '</div>';
 
-      include './bottom-imports.php';
+      include '../bottom-imports.php';
     ?>
   </body>
 </html>

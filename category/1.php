@@ -26,7 +26,7 @@
             </div>
 
   					<div class="logotype">
-              <div class="big navbar-title"><a href="../index.html"><img src="../img/logo.png" class="site-logo"></a></div>
+              <div class="big navbar-title"><a href="../index.php"><img src="../img/logo.png" class="site-logo"></a></div>
   					</div>
 
   					<div class="checkout">
@@ -45,7 +45,7 @@
 
             <br><br>
 
-            <a href="../index.html"><span class="go-back glyphicon glyphicon-chevron-left"></span></a>
+            <a href="../index.php"><span class="go-back glyphicon glyphicon-chevron-left"></span></a>
 
             <h1 class="text-center head blue">Seat Covers for <?PHP echo $_GET['car']; ?></h1>
 
@@ -108,13 +108,13 @@
     </div>
 
     <?PHP
-      include './footer.php';
+      include '../footer.php';
 
-      include './navigation.php';
+      include '../navigation.php';
 
       echo '</div>';
 
-      include './bottom-imports.php';
+      include '../bottom-imports.php';
     ?>
 </body>
 </html>

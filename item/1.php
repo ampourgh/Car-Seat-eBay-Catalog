@@ -26,7 +26,7 @@
             </div>
 
   					<div class="logotype">
-              <div class="big navbar-title"><a href="../index.html"><img src="../img/logo.png" class="site-logo"></a></div>
+              <div class="big navbar-title"><a href="../index.php"><img src="../img/logo.png" class="site-logo"></a></div>
   					</div>
 
   					<div class="checkout">
@@ -116,13 +116,13 @@
     </div>
 
     <?PHP
-      include './footer.php';
+      include '../footer.php';
 
-      include './navigation.php';
+      include '../navigation.php';
 
       echo '</div>';
 
-      include './bottom-imports.php';
+      include '../bottom-imports.php';
     ?>
 </body>
 </html>
