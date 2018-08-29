@@ -27,7 +27,7 @@
             </div>
 
   					<div class="logotype">
-              <div class="big navbar-title"><a href="../index.php"><img src="../img/logo.png" class="site-logo"></a></div>
+              <div class="big navbar-title"><a href="../index.html"><img src="../img/logo.png" class="site-logo"></a></div>
   					</div>
 
   					<div class="checkout">

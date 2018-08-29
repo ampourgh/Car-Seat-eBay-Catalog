@@ -1,5 +1,5 @@
 <?php
-  $conn = mysqli_connect("us-cdbr-iron-east-01.cleardb.net", "b5723b7b935724", "985bb187", "heroku_52e2b92d5188bd3");
+  $conn = mysqli_connect("server", "user", "pass", "heroku");
 
   if ($conn) {
     echo "";

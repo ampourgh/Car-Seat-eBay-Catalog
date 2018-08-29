@@ -7,7 +7,7 @@
     <img src="<?PHP echo $url; ?>/img/logo.png" style="padding: 5px 0; height: 45px; width: auto;background: rgba(0, 0, 0, .5);">
 
     <p class="footer-links">
-      <a href="<?PHP echo $url; ?>/index.php">Home</a>
+      <a href="<?PHP echo $url; ?>/index.html">Home</a>
       ·
       <a href="<?PHP echo $url; ?>/navbar/about.php">About Us</a>
       ·
