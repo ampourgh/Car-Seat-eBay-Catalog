@@ -125,11 +125,17 @@
             <br>
 
             <div class="row">
+
+              <div class="col-cat-1">
+                column
+              </div>
+
               <div class="col-cat-2">
                 <a href="./category/1.php?car=Ram"><h3 class="text-center cat-tab-design">Ram</h3></a>
                 <div class="sm-box sm-box-cat" style="background-image: url('./img/category/cars/ram.png');">
                 </div>
               </div>
+
             </div>
 
             <div id="ford"></div>
@@ -179,11 +185,17 @@
             </div>
 
             <div class="row">
+
+              <div class="col-cat-1">
+                column
+              </div>
+
               <div class="col-cat-2">
                 <a href="./category/1.php?car=F450"><h3 class="text-center cat-tab-design">Ford F450</h3></a>
                 <div class="sm-box sm-box-cat" style="background-image: url('./img/category/cars/450.png');">
                 </div>
               </div>
+
             </div>
 
             <div id="gmc"></div>
@@ -214,11 +226,17 @@
             <br>
 
             <div class="row">
+
+              <div class="col-cat-1">
+                column
+              </div>
+
               <div class="col-cat-2">
                 <a href="./category/1.php?car=H2"><h3 class="text-center cat-tab-design">H2</h3></a>
                 <div class="sm-box sm-box-cat" style="background-image: url('./img/category/cars/h2.png');">
                 </div>
               </div>
+
             </div>
 
             <div id="jeep"></div>
@@ -229,11 +247,17 @@
             <br>
 
             <div class="row">
+
+              <div class="col-cat-1">
+                column
+              </div>
+
               <div class="col-cat-2">
                 <a href="./category/1.php?car=Cherokee"><h3 class="text-center cat-tab-design">Cherokee</h3></a>
                 <div class="sm-box sm-box-cat" style="background-image: url('./img/category/cars/cherokee.png');">
                 </div>
               </div>
+
             </div>
 
 
@@ -245,11 +269,18 @@
             <br>
 
             <div class="row">
+
+              <div class="col-cat-1">
+                column
+              </div>
+
               <div class="col-cat-2">
                 <a href="./category/1.php?car=Navigator"><h3 class="text-center cat-tab-design">Navigator</h3></a>
                 <div class="sm-box sm-box-cat" style="background-image: url('./img/category/cars/navigator.png');">
                 </div>
+
               </div>
+
             </div>
 
           </div>

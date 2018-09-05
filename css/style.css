@@ -478,8 +478,15 @@ body {
   box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.35);
 }
 
+.col-cat-1 {
+  float: left;
+  width: 25%;
+  padding: none;
+  max-height: 300px;
+  visibility: hidden;
+}
+
 .col-cat-2 {
-  /* border: 1px solid black; */
   float: left;
   width: 50%;
   padding: none;
@@ -1023,6 +1030,10 @@ body {
 
   .item-col {
     width: 100%;
+  }
+
+  .col-cat-1 {
+    display: none;
   }
 
   .col-cat-2 {
