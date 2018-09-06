@@ -33,8 +33,8 @@
   						<div class="big navbar-title"><a href="./index.php"><img src="./img/logo.png" class="site-logo"></a></div>
   					</div>
 
-  					<div class="checkout">
-  						<div class="big" style="padding-right: 10px;">713-261-7380</div>
+  					<div class="phone-number">
+  						<div class="big phone-num">713-261-7380</div>
   					</div>
 
   				</div>
@@ -44,10 +44,15 @@
 
   	<div class="site-inner">
   		<section class="container-fluid">
+
+        <div class="space-before-carousel"></div>
+
         <div class="row">
+
           <!-- <img src="./img/banner.png" style="width: 100%; height: auto;"> -->
           <div  style="width: 100%; height: auto;padding: 5% 0 0 0; margin: 0;">
             <div id="myCarousel" class="carousel slide" data-ride="carousel" style="width: 100%; ">
+
               <!-- Indicators -->
               <ol class="carousel-indicators" style="">
                 <li data-target="#myCarousel" data-slide-to="0" class="active" style="border-radius: 0px; width: 40px;"></li>
@@ -80,6 +85,7 @@
             </div>
           </div>
   			</div>
+
   			<div class="row mg">
   				<!-- SECOND ROW -->
   				<div class="container-cat">

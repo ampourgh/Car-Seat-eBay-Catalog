@@ -7,7 +7,7 @@
   <div class="navigation-content">
 	<h3 class="blue">Menu</h3>
 	<ul class="navigation-menu">
-	  <li class="blue"><a href="./index.php" class="active">Home</a></li>
+	  <li class="blue"><a href="../index.php" class="active">Home</a></li>
 	  <li><b>CARS:</b></li>
 	  <li><a href="<?PHP echo $url; ?>/index.php#chevrolet"><i class="blue fa fa-circle"></i> Chevrolet</a></li>
 	  <li><a href="<?PHP echo $url; ?>/index.php#dodge"><i class="blue fa fa-circle"></i> Dodge</a></li>

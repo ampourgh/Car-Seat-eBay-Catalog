@@ -30,8 +30,8 @@
               <div class="big navbar-title"><a href="../index.html"><img src="../img/logo.png" class="site-logo"></a></div>
   					</div>
 
-  					<div class="checkout">
-  						<div class="big" style="padding-right: 10px;">713-261-7380</div>
+  					<div class="phone-number">
+  						<div class="big phone-num">713-261-7380</div>
   					</div>
 
   				</div>
