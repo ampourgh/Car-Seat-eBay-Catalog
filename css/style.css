@@ -45,6 +45,18 @@ a:hover {
   width: 40px;
 }
 
+.banner-display-1 {
+  content:url(./img/banner/banner-1.png);
+}
+
+.banner-display-2 {
+  content:url(./img/banner/banner-2.png);
+}
+
+.banner-display-3 {
+  content:url(./img/banner/banner-3.png);
+}
+
 body {
   font-family: "Roboto", sans-serif;
   background: #FFF;
@@ -1024,6 +1036,18 @@ body {
     font-size: 2rem;
     font-weight: 700;
     margin: .5rem;
+  }
+
+  .banner-display-1 {
+    content:url(./img/banner/banner-mini-1.png);
+  }
+
+  .banner-display-2 {
+    content:url(./img/banner/banner-mini-2.png);
+  }
+
+  .banner-display-3 {
+    content:url(./img/banner/banner-mini-3.png);
   }
 
   .scrolled.navbar .container-menu .phone-number div {

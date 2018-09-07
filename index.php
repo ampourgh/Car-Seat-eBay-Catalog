@@ -64,15 +64,21 @@
               <div class="carousel-inner">
 
                 <div class="item active">
-                  <img src="./img/banner/banner-1.png" style="width:100%;">
+                  <img class="banner-display-1">​
+                  <!-- <img src="./img/banner/banner-1.png" class="banner-display" style="width:100%;">
+                  <img src="./img/banner/banner-mini-1.png" class="banner-mini-display" style="width:100%;"> -->
                 </div>
 
                 <div class="item">
-                  <img src="./img/banner/banner-2.png" style="width:100%;">
+                  <img class="banner-display-2">​
+                  <!-- <img src="./img/banner/banner-2.png" class="banner-display" style="width:100%;">
+                  <img src="./img/banner/banner-mini-2.png" class="banner-mini-display" style="width:100%;"> -->
                 </div>
 
                 <div class="item">
-                  <img src="./img/banner/banner-3.png" style="width:100%;">
+                  <img class="banner-display-3">​
+                  <!-- <img src="./img/banner/banner-3.png" class="banner-display" style="width:100%;">
+                  <img src="./img/banner/banner-mini-3.png" class="banner-mini-display" style="width:100%;"> -->
                 </div>
 
               </div>
