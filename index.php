@@ -47,50 +47,84 @@
 
         <div class="space-before-carousel"></div>
 
-        <div class="row">
+        <div class="row banner-desktop">
 
           <!-- <img src="./img/banner.png" style="width: 100%; height: auto;"> -->
           <div  style="width: 100%; height: auto;padding: 5% 0 0 0; margin: 0;">
-            <div id="myCarousel" class="carousel slide" data-ride="carousel" style="width: 100%; ">
+            <div id="desktopCarousel" class="carousel slide" data-ride="carousel" style="width: 100%; ">
 
               <!-- Indicators -->
               <ol class="carousel-indicators" style="">
-                <li data-target="#myCarousel" data-slide-to="0" class="active" style="border-radius: 0px; width: 40px;"></li>
-                <li data-target="#myCarousel" data-slide-to="1" style="border-radius: 0px; width: 40px;"></li>
-                <li data-target="#myCarousel" data-slide-to="2" style="border-radius: 0px; width: 40px;"></li>
+                <li data-target="#desktopCarousel" data-slide-to="0" class="active" style="border-radius: 0px; width: 40px;"></li>
+                <li data-target="#desktopCarousel" data-slide-to="1" style="border-radius: 0px; width: 40px;"></li>
+                <li data-target="#desktopCarousel" data-slide-to="2" style="border-radius: 0px; width: 40px;"></li>
               </ol>
 
               <!-- Wrapper for slides -->
               <div class="carousel-inner">
 
                 <div class="item active">
-                  <img class="banner-display-1">​
-                  <!-- <img src="./img/banner/banner-1.png" class="banner-display" style="width:100%;">
-                  <img src="./img/banner/banner-mini-1.png" class="banner-mini-display" style="width:100%;"> -->
+                  <img src="./img/banner/banner-1.png" style="width:100%;">
                 </div>
 
                 <div class="item">
-                  <img class="banner-display-2">​
-                  <!-- <img src="./img/banner/banner-2.png" class="banner-display" style="width:100%;">
-                  <img src="./img/banner/banner-mini-2.png" class="banner-mini-display" style="width:100%;"> -->
+                  <img src="./img/banner/banner-2.png" style="width:100%;">
                 </div>
 
                 <div class="item">
-                  <img class="banner-display-3">​
-                  <!-- <img src="./img/banner/banner-3.png" class="banner-display" style="width:100%;">
-                  <img src="./img/banner/banner-mini-3.png" class="banner-mini-display" style="width:100%;"> -->
+                  <img src="./img/banner/banner-3.png" style="width:100%;">
                 </div>
 
               </div>
 
               <!-- Left and right controls -->
-              <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+              <a class="left carousel-control" href="#desktopCarousel" data-slide="prev">
               </a>
-              <a class="right carousel-control" href="#myCarousel" data-slide="next">
+              <a class="right carousel-control" href="#desktopCarousel" data-slide="next">
                 </a>
             </div>
           </div>
   			</div>
+
+        <div class="row banner-mobile">
+
+          <!-- <img src="./img/banner.png" style="width: 100%; height: auto;"> -->
+          <div  style="width: 100%; height: auto;padding: 5% 0 0 0; margin: 0;">
+            <div id="mobileCarousel" class="carousel slide" data-ride="carousel" style="width: 100%; ">
+
+              <!-- Indicators -->
+              <ol class="carousel-indicators" style="">
+                <li data-target="#mobileCarousel" data-slide-to="0" class="active" style="border-radius: 0px; width: 40px;"></li>
+                <li data-target="#mobileCarousel" data-slide-to="1" style="border-radius: 0px; width: 40px;"></li>
+                <li data-target="#mobileCarousel" data-slide-to="2" style="border-radius: 0px; width: 40px;"></li>
+              </ol>
+
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+
+                <div class="item active">
+                  <img src="./img/banner/banner-mini-1.png" style="width:100%;">
+                </div>
+
+                <div class="item">
+                  <img src="./img/banner/banner-mini-2.png" style="width:100%;">
+                </div>
+
+                <div class="item">
+                  <img src="./img/banner/banner-mini-3.png" style="width:100%;">
+                </div>
+
+              </div>
+
+              <!-- Left and right controls -->
+              <a class="left carousel-control" href="#mobileCarousel" data-slide="prev">
+              </a>
+              <a class="right carousel-control" href="#mobileCarousel" data-slide="next">
+                </a>
+            </div>
+          </div>
+        </div>
+
 
   			<div class="row mg">
   				<!-- SECOND ROW -->

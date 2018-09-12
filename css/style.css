@@ -45,16 +45,12 @@ a:hover {
   width: 40px;
 }
 
-.banner-display-1 {
-  content:url(./img/banner/banner-1.png);
-}
+ .banner-desktop {
 
-.banner-display-2 {
-  content:url(./img/banner/banner-2.png);
-}
+ }
 
-.banner-display-3 {
-  content:url(./img/banner/banner-3.png);
+.banner-mobile {
+  display: none;
 }
 
 body {
@@ -1038,16 +1034,12 @@ body {
     margin: .5rem;
   }
 
-  .banner-display-1 {
-    content:url(./img/banner/banner-mini-1.png);
+  .banner-desktop {
+    display: none;
   }
 
-  .banner-display-2 {
-    content:url(./img/banner/banner-mini-2.png);
-  }
-
-  .banner-display-3 {
-    content:url(./img/banner/banner-mini-3.png);
+  .banner-mobile {
+    display: block;
   }
 
   .scrolled.navbar .container-menu .phone-number div {
