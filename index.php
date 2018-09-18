@@ -133,7 +133,7 @@
             <hr>
 
             <div id="chevrolet"></div>
-            <h1 class="text-center head blue"><img src="./img/category/brands/chevy.png" style="width: 250px; height: auto;"></h1>
+            <h1>CHEVROLET</h1>
             <br>
             <div class="row">
               <a href="./category/1.php?car=Silverado">
@@ -167,7 +167,7 @@
 
             <hr>
 
-            <h1 class="text-center head blue"><img src="./img/category/brands/dodge.svg" style="width: 250px; height: auto;"></h1>
+            <h1>DODGE</h1>
             <br>
 
             <div class="row">
@@ -188,7 +188,7 @@
 
             <hr>
 
-            <h1 class="text-center head blue"><img src="./img/category/brands/ford.svg" style="width: 250px; height: auto;"></h1>
+            <h1>FORD</h1>
             <br>
 
             <div class="row">
@@ -248,7 +248,7 @@
 
             <hr>
 
-            <h1 class="text-center head blue"><img src="./img/category/brands/gmc.svg" style="width: 250px; height: auto;"></h1>
+            <h1>GMC</h1>
             <br>
 
             <div class="row">
@@ -268,7 +268,7 @@
 
             <hr>
 
-            <h1 class="text-center head blue"><img src="./img/category/brands/hummer.svg" style="width: 250px; height: auto;"></h1>
+            <h1>HUMMER</h1>
             <br>
 
             <div class="row">
@@ -289,7 +289,8 @@
 
             <hr>
 
-            <h1 class="text-center head blue"><img src="./img/category/brands/jeep.svg" style="width: 250px; height: auto;"></h1>
+            <h1>JEEP</h1>
+
             <br>
 
             <div class="row">
@@ -306,12 +307,11 @@
 
             </div>
 
-
             <div id="lincoln"></div>
 
             <hr>
 
-            <h1 class="text-center head blue"><img src="./img/category/brands/lincoln.png" style="width: 250px; height: auto;"></h1>
+            <h1>LINCOLN</h1>
             <br>
 
             <div class="row">
