@@ -417,13 +417,41 @@
 
     </footer>
 
-    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-    <script src='http://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
-    <script src='http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.0/handlebars.min.js'></script>
-    <script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
-    <script  src="./js/index.js"></script>
-    <script>includeHTML();</script>
+    <!-- NAVIGATION -->
+    <div class="navigation">
+      <div class="navigation-content">
+    	<h3 class="blue">Menu</h3>
+    	<ul class="navigation-menu">
+    	  <li class="blue"><a href="../index.php" class="active">Home</a></li>
+    	  <li><b>CARS:</b></li>
+    	  <li><a href="./index.php#chevrolet"><i class="blue fa fa-circle"></i> Chevrolet</a></li>
+    	  <li><a href="./index.php#dodge"><i class="blue fa fa-circle"></i> Dodge</a></li>
+    	  <li><a href="./index.php#ford"><i class="blue fa fa-circle"></i> Ford</a></li>
+    	  <li><a href="./index.php#gmc"><i class="blue fa fa-circle"></i> GMC</a></li>
+    	  <li><a href="./index.php#hummer"><i class="blue fa fa-circle"></i> Hummer</a></li>
+    	  <li><a href="./index.php#jeep"><i class="blue fa fa-circle"></i> Jeep</a></li>
+    	  <li><a href="./index.php#lincoln"><i class="blue fa fa-circle"></i> Lincoln</a></li>
+    	</ul>
+    	<h3 class="blue">More</h3>
+    	<ul class="navigation-menu">
+    	  <li><a href="./navbar/about.php">About Us</a></li>
+    	  <li><a href="./navbar/contact.php">Contact</a></li>
+    	  <li><a href="./navbar/services.php">Services</a></li>
+    	  <li><a href="./navbar/FAQ.php">FAQ</a></li>
+    	</ul>
+      </div>
+    </div>
+
   </div>
+
+
+
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.0/handlebars.min.js'></script>
+  <script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
+  <script  src="./js/index.js"></script>
+  <script>includeHTML();</script>
 
 </body>
 </html>
