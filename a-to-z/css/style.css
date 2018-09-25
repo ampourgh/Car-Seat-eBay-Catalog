@@ -56,8 +56,8 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 h1 {
-  font-family: 'Karla';
-  font-size: 100px;
+  font-family: 'Cinzel Decorative';
+  font-size: 150px;
 	letter-spacing: 20px;
 }
 
@@ -121,19 +121,19 @@ header {
 	margin: 0;
 	line-height: 50%;
 	text-align: center;
-	padding: 0 15%;
+	padding: 0 5%;
 	margin: 0;
 	line-height: 50%;
 	text-align: center;
-	padding: 0 15%;
+	padding: 0 5%;
 }
 
 .encompass {
 	height: 100vh;
 }
 
-.add-twenty-five {
-	height: 25vh;
+.add-fifteen {
+	height: 15vh;
 }
 
 .add-twenty {
@@ -361,7 +361,7 @@ NAVIGATION BAR
 		padding-left: 0;
     z-index: -3;
 		/* background: linear-gradient(rgba(80, 75, 111, .2), rgba(80, 75, 111, 1) 85%); */
-		background: linear-gradient(rgba(242, 255, 31, .4), rgba(32, 31, 36, 1) 90%);
+		background: linear-gradient(rgba(105, 205, 251, .4), rgba(32, 31, 36, 1) 90%);
 }
 
 /* .wallpaper {
