@@ -19,6 +19,10 @@
     <!-- For smooth scrolling to the top of the page -->
     <div id="home"></div>
 
+    <button class="menu" type="button">
+    	<span class="nav-icon glyphicon glyphicon-menu-hamburger"><span class="text-nav"> PORTFOLIO</span></span>
+    </button>
+
     <nav id="mobile-nav">
       <ul>
         <li><a href="#home">Home</a></li>
@@ -45,18 +49,12 @@
         <h1 style="font-size: 100px;">ONE DAY!</h1>
         <br>
 
-        <img src="./img/house.jpg" style="height: 275px; width:auto;">
-        <img src="./img/supply.jpg" style="height: 275px; width:auto;">
-        <img src="./img/tech.jpg" style="height: 275px; width:auto;">
-        <img src="./img/tool.jpg" style="height: 275px; width:auto;">
+        <a href="#first"><img src="./img/house.jpg" style="height: 275px; width:auto;"></a>
+        <a href="#first"><img src="./img/supply.jpg" style="height: 275px; width:auto;"></a>
+        <a href="#first"><img src="./img/tech.jpg" style="height: 275px; width:auto;"></a>
+        <a href="#first"><img src="./img/tool.jpg" style="height: 275px; width:auto;"></a>
 
         <span class="line-height"></span>
-
-        <span class="scrolldown">
-          <span class="scroll_btn border">
-            <a href="#first" id="scroll-down"><img src="./img/scroll.gif" style="visibility: hidden;"></a>
-          </span>
-        </span>
 
       </div>
     </header>
@@ -64,7 +62,10 @@
     <div class="navbar" id="navbar">
       <span class="home-button">
         <a href="#home">HOME</a>
-      </span>&nbsp;
+      </span>
+
+      &nbsp;&nbsp;
+      
       <div class="projectsNavbar" id="projectsNavbar">
 
          <a href="#first">ABOUT</a>
@@ -104,7 +105,7 @@
 
       <div class="add-twenty"></div>
 
-      <h2>ABOUT APPLUX</h2>
+      <h2>ABOUT A-to-Z</h2>
 
       <br>
 
