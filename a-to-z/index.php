@@ -43,16 +43,43 @@
 
       <div class="encompass">
 
-        <div class="add-ten"></div>
+        <div class="add-eight"></div>
 
-        <h1>A-TO-Z</h1>
-        <h1 style="font-size: 100px;">ONE DAY!</h1>
-        <br>
+        <div style="text-align: right;">
+          <img src="./img/logo.png" style="height: 250px; width: auto; font-size: 14pt;">
+        </div>
 
-        <a href="#first"><img src="./img/house.jpg" style="height: 275px; width:auto;"></a>
-        <a href="#first"><img src="./img/supply.jpg" style="height: 275px; width:auto;"></a>
-        <a href="#first"><img src="./img/tech.jpg" style="height: 275px; width:auto;"></a>
-        <a href="#first"><img src="./img/tool.jpg" style="height: 275px; width:auto;"></a>
+        <br><br>
+
+        <div class="tbl-row">
+          <div class="tbl-col">
+            <div class="img-contain">
+              <a href="#first"><img src="./img/house.jpg" class="front-pictures"></a>
+              <div class="bottom-center">Appliances</div>
+            </div>
+          </div>
+          <div class="tbl-col">
+            <div class="img-contain">
+              <div class="add-five"></div>
+              <a href="#first"><img src="./img/supply.jpg" class="front-pictures"></a>
+              <div class="bottom-center">Supplies</div>
+            </div>
+          </div>
+          <div class="tbl-col">
+            <div class="img-contain">
+              <div class="add-ten"></div>
+              <a href="#first"><img src="./img/tech.jpg" class="front-pictures"></a>
+              <div class="bottom-center">Technology</div>
+            </div>
+          </div>
+          <div class="tbl-col">
+            <div class="img-contain">
+              <div class="add-fifteen"></div>
+              <a href="#first"><img src="./img/tool.jpg" class="front-pictures"></a>
+              <div class="bottom-center">Tools</div>
+            </div>
+          </div>
+        </div>
 
         <span class="line-height"></span>
 
@@ -65,7 +92,7 @@
       </span>
 
       &nbsp;&nbsp;
-      
+
       <div class="projectsNavbar" id="projectsNavbar">
 
          <a href="#first">ABOUT</a>

@@ -59,6 +59,8 @@ h1 {
   font-family: 'Cinzel Decorative';
   font-size: 150px;
 	letter-spacing: 20px;
+	text-align: right;
+	color: #fff;
 }
 
 h2 {
@@ -132,8 +134,29 @@ header {
 	height: 100vh;
 }
 
+.front-pictures {
+	border-radius: 30px;
+	border: 3px rgba(157, 0, 0, .8) solid;
+	padding: 0;
+	margin: 0;
+	height: 275px;
+	width:auto;
+}
+
+.add-eight {
+	height: 8vh;
+}
+
+.add-five {
+	height: 5vh;
+}
+
 .add-ten {
 	height: 10vh;
+}
+
+.add-fifteen {
+	height: 15vh;
 }
 
 .add-twenty {
@@ -360,21 +383,8 @@ NAVIGATION BAR
 		left: 0;
 		padding-left: 0;
     z-index: -3;
-		/* background: linear-gradient(rgba(80, 75, 111, .2), rgba(80, 75, 111, 1) 85%); */
-		background: linear-gradient(rgba(255, 255, 255, .4), rgba(245, 245, 220, 1) 90%);
+		background: linear-gradient(-170deg, rgba(157, 0, 0, .8) 40%, rgba(260, 260, 260, 1) 0%);
 }
-
-/* .wallpaper {
-    position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		left: 0;
-		padding-left: 0;
-    z-index: -4;
-		background: url(../img/wallpaper.jpg);
-		background-size: 40%;
-} */
 
 .wallpaper {
     position: absolute;
@@ -384,8 +394,6 @@ NAVIGATION BAR
 		left: 0;
 		padding-left: 0;
     z-index: -4;
-		background: url(../img/bg.png);
-		background-size: 2.5%;
 }
 
 /*
@@ -395,6 +403,35 @@ BODY
 .img-txt-container {
     position: relative;
 		z-index: 1;
+}
+
+.tbl-col {
+  /* border: 1px solid red; */
+  float: left;
+  width: 25%;
+  padding: none;
+  max-height: 500px;
+}
+
+.tbl-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.img-contain {
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+.bottom-center {
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+		border: 10px 30px;
+		background-color: #000;
+    transform: translate(-50%, -50%);
 }
 
 .btm-left {
