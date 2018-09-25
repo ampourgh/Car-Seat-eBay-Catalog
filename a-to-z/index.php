@@ -19,10 +19,6 @@
     <!-- For smooth scrolling to the top of the page -->
     <div id="home"></div>
 
-    <button class="menu" type="button">
-    	<span class="nav-icon glyphicon glyphicon-menu-hamburger"><span class="text-nav"> PORTFOLIO</span></span>
-    </button>
-
     <nav id="mobile-nav">
       <ul>
         <li><a href="#home">Home</a></li>
@@ -43,7 +39,7 @@
 
       <div class="encompass">
 
-        <div class="add-fifteen"></div>
+        <div class="add-ten"></div>
 
         <h1>A-TO-Z</h1>
         <h1 style="font-size: 100px;">ONE DAY!</h1>
@@ -53,28 +49,6 @@
         <img src="./img/supply.jpg" style="height: 275px; width:auto;">
         <img src="./img/tech.jpg" style="height: 275px; width:auto;">
         <img src="./img/tool.jpg" style="height: 275px; width:auto;">
-
-        <!-- <a href="#home" class="goUp">
-          <span class="glyphicon glyphicon-wrench" style="padding: 30px; font-size: 2.5em; color: #fff; background-color: #000; border-radius: 100px;"></span>
-        </a>
-
-        &nbsp;
-
-        <a href="#home" class="goUp">
-          <span class="glyphicon glyphicon-home" style="padding: 30px; font-size: 2.5em; color: #fff; background-color: #000; border-radius: 100px;"></span>
-        </a>
-
-        &nbsp;
-
-        <a href="#home" class="goUp">
-          <span class="glyphicon glyphicon-phone" style="padding: 30px; font-size: 2.5em; color: #fff; background-color: #000; border-radius: 100px;"></span>
-        </a>
-
-        &nbsp;
-
-        <a href="#home" class="goUp">
-          <span class="glyphicon glyphicon-briefcase" style="padding: 30px; font-size: 2.5em; color: #fff; background-color: #000; border-radius: 100px;"></span>
-        </a> -->
 
         <span class="line-height"></span>
 
@@ -92,9 +66,33 @@
         <a href="#home">HOME</a>
       </span>&nbsp;
       <div class="projectsNavbar" id="projectsNavbar">
-         <a href="#first">ABOUT APPLUX</a>&nbsp;
-         <span style="vertical-align: text-top; color: #fff;">•</span> <a href="#webdev">WEBSITE</a>&nbsp;
-         <span style="vertical-align: text-top; color: #fff;">•</span> <a href="#graphic">GRAPHIC DESIGN</a>
+
+         <a href="#first">ABOUT</a>
+
+         &nbsp;&nbsp;
+
+         <a href="#home" class="goUp">
+           <span class="glyphicon glyphicon-wrench" style="font-size: 15px; color: #fff;"></span>&nbsp; TOOLS
+         </a>
+
+         &nbsp;&nbsp;
+
+         <a href="#home" class="goUp">
+           <span class="glyphicon glyphicon-home" style="font-size: 15px; color: #fff;"></span>&nbsp; HOUSE UTILITIES
+         </a>
+
+         &nbsp;&nbsp;
+
+         <a href="#home" class="goUp">
+           <span class="glyphicon glyphicon-phone" style="font-size: 15px; color: #fff;"></span>&nbsp; TECH
+         </a>
+
+         &nbsp;&nbsp;
+
+         <a href="#home" class="goUp">
+           <span class="glyphicon glyphicon-briefcase" style="font-size: 15px; color: #fff;"></span>&nbsp; OFFICE SUPPLIES
+         </a>
+
       </div>
     </div>
 
