@@ -52,34 +52,67 @@
         <br><br>
 
         <div class="tbl-row">
-          <div class="tbl-col">
-            <div class="img-contain">
-              <a href="#first"><img src="./img/house.jpg" class="front-pictures"></a>
-              <div class="bottom-center">Appliances</div>
-            </div>
+
+          <a href="#first">
+            <div class="tbl-col">
+              <div class="card">
+                 <figure>
+                   <img src="https://usa-auto.herokuapp.com/a-to-z/img/house.jpg" class="front-img">
+                  </figure>
+
+                  <div class="caption">
+                    <p>House Appliances</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#first">
+              <div class="tbl-col">
+                <div class="add-five"></div>
+                <div class="card">
+                  <figure>
+                   <img src="https://usa-auto.herokuapp.com/a-to-z/img/supply.jpg" class="front-img">
+                  </figure>
+
+                  <div class="caption">
+                    <p>Office Supplies</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#first">
+              <div class="tbl-col">
+                <div class="add-ten"></div>
+                <div class="card">
+                  <figure>
+                   <img src="https://usa-auto.herokuapp.com/a-to-z/img/tech.jpg" class="front-img">
+                  </figure>
+
+                  <div class="caption">
+                    <p>Tech</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#first">
+              <div class="tbl-col">
+                <div class="add-fifteen"></div>
+                <div class="card">
+                  <figure>
+                   <img src="https://usa-auto.herokuapp.com/a-to-z/img/tool.jpg" class="front-img">
+                  </figure>
+
+                  <div class="caption">
+                    <p>Tools</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+
           </div>
-          <div class="tbl-col">
-            <div class="img-contain">
-              <div class="add-five"></div>
-              <a href="#first"><img src="./img/supply.jpg" class="front-pictures"></a>
-              <div class="bottom-center">Supplies</div>
-            </div>
-          </div>
-          <div class="tbl-col">
-            <div class="img-contain">
-              <div class="add-ten"></div>
-              <a href="#first"><img src="./img/tech.jpg" class="front-pictures"></a>
-              <div class="bottom-center">Technology</div>
-            </div>
-          </div>
-          <div class="tbl-col">
-            <div class="img-contain">
-              <div class="add-fifteen"></div>
-              <a href="#first"><img src="./img/tool.jpg" class="front-pictures"></a>
-              <div class="bottom-center">Tools</div>
-            </div>
-          </div>
-        </div>
 
         <span class="line-height"></span>
 
