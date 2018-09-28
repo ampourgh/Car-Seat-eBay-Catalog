@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>USA AUTO SEAT COVER</title>
+  <title>SEAT COVERS</title>
   <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
   <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -139,13 +139,12 @@
               <a href="./category/1.php?car=Silverado">
               <div class="col-cat-2">
                 <h3 class="text-center cat-tab-design">Silverado</h3>
-                <div class="sm-box sm-box-cat" style="background-image: url('./img/category/cars/silverado.png');">
-                </div>
+                <div class="sm-box sm-box-cat" style="background-image: url('./img/category/cars/silverado-desktop.png');"></div>
               </div>
               </a>
               <div class="col-cat-2">
                 <a href="./category/1.php?car=Suburban"><h3 class="text-center cat-tab-design">Suburban</h3></a>
-                <div class="sm-box sm-box-cat" style="background-image: url('./img/category/cars/suburban.png');">
+                <div class="sm-box sm-box-cat" style="background-image: url('./img/category/cars/suburban-desktop.png');">
                 </div>
               </div>
             </div>
@@ -153,12 +152,12 @@
             <div class="row">
               <div class="col-cat-2">
                 <a href="./category/1.php?car=Tahoe"><h3 class="text-center cat-tab-design">Tahoe</h3></a>
-                <div class="sm-box sm-box-cat" style="background-image: url('./img/category/cars/tahoe.png');">
+                <div class="sm-box sm-box-cat" style="background-image: url('./img/category/cars/tahoe-desktop.png');">
                 </div>
               </div>
               <div class="col-cat-2">
                 <a href="./category/1.php?car=Express"><h3 class="text-center cat-tab-design">Express</h3></a>
-                <div class="sm-box sm-box-cat" style="background-image: url('./img/category/cars/express.png');">
+                <div class="sm-box sm-box-cat" style="background-image: url('./img/category/cars/express-desktop.png');">
                 </div>
               </div>
             </div>
@@ -178,7 +177,7 @@
 
               <div class="col-cat-2">
                 <a href="./category/1.php?car=Ram"><h3 class="text-center cat-tab-design">Ram</h3></a>
-                <div class="sm-box sm-box-cat" style="background-image: url('./img/category/cars/ram.png');">
+                <div class="sm-box sm-box-cat" style="background-image: url('./img/category/cars/ram-desktop.png');">
                 </div>
               </div>
 
@@ -194,12 +193,12 @@
             <div class="row">
               <div class="col-cat-2">
                 <a href="./category/1.php?car=Expedition"><h3 class="text-center cat-tab-design">Expedition</h3></a>
-                <div class="sm-box sm-box-cat" style="background-image: url('./img/category/cars/expedition.png');">
+                <div class="sm-box sm-box-cat" style="background-image: url('./img/category/cars/expedition-desktop.png');">
                 </div>
               </div>
               <div class="col-cat-2">
                 <a href="./category/1.php?car=Excursion"><h3 class="text-center cat-tab-design">Excursion</h3></a>
-                <div class="sm-box sm-box-cat" style="background-image: url('./img/category/cars/excursion.png');">
+                <div class="sm-box sm-box-cat" style="background-image: url('./img/category/cars/excursion-desktop.png');">
                 </div>
               </div>
             </div>
@@ -207,12 +206,12 @@
             <div class="row">
               <div class="col-cat-2">
                 <a href="./category/1.php?car=Explorer"><h3 class="text-center cat-tab-design">Explorer</h3></a>
-                <div class="sm-box sm-box-cat" style="background-image: url('./img/category/cars/explorer.png');">
+                <div class="sm-box sm-box-cat" style="background-image: url('./img/category/cars/explorer-desktop.png');">
                 </div>
               </div>
               <div class="col-cat-2">
                 <a href="./category/1.php?car=F150"><h3 class="text-center cat-tab-design">Ford F150</h3></a>
-                <div class="sm-box sm-box-cat" style="background-image: url('./img/category/cars/150.png');">
+                <div class="sm-box sm-box-cat" style="background-image: url('./img/category/cars/150-desktop.png');">
                 </div>
               </div>
             </div>
@@ -220,12 +219,12 @@
             <div class="row">
               <div class="col-cat-2">
                 <a href="./category/1.php?car=F250"><h3 class="text-center cat-tab-design">Ford F250</h3></a>
-                <div class="sm-box sm-box-cat" style="background-image: url('./img/category/cars/250.png');">
+                <div class="sm-box sm-box-cat" style="background-image: url('./img/category/cars/250-desktop.png');">
                 </div>
               </div>
               <div class="col-cat-2">
                 <a href="./category/1.php?car=F350"><h3 class="text-center cat-tab-design">Ford F350</h3></a>
-                <div class="sm-box sm-box-cat" style="background-image: url('./img/category/cars/350.png');">
+                <div class="sm-box sm-box-cat" style="background-image: url('./img/category/cars/350-desktop.png');">
                 </div>
               </div>
             </div>
@@ -238,7 +237,7 @@
 
               <div class="col-cat-2">
                 <a href="./category/1.php?car=F450"><h3 class="text-center cat-tab-design">Ford F450</h3></a>
-                <div class="sm-box sm-box-cat" style="background-image: url('./img/category/cars/450.png');">
+                <div class="sm-box sm-box-cat" style="background-image: url('./img/category/cars/450-desktop.png');">
                 </div>
               </div>
 
@@ -254,12 +253,12 @@
             <div class="row">
               <div class="col-cat-2">
                 <a href="./category/1.php?car=Sierra"><h3 class="text-center cat-tab-design">Sierra</h3></a>
-                <div class="sm-box sm-box-cat" style="background-image: url('./img/category/cars/sierra.png');">
+                <div class="sm-box sm-box-cat" style="background-image: url('./img/category/cars/sierra-desktop.png');">
                 </div>
               </div>
               <div class="col-cat-2">
                 <a href="./category/1.php?car=Yukon"><h3 class="text-center cat-tab-design">Yukon</h3></a>
-                <div class="sm-box sm-box-cat" style="background-image: url('./img/category/cars/yukon.png');">
+                <div class="sm-box sm-box-cat" style="background-image: url('./img/category/cars/yukon-desktop.png');">
                 </div>
               </div>
             </div>
@@ -279,7 +278,7 @@
 
               <div class="col-cat-2">
                 <a href="./category/1.php?car=H2"><h3 class="text-center cat-tab-design">H2</h3></a>
-                <div class="sm-box sm-box-cat" style="background-image: url('./img/category/cars/h2.png');">
+                <div class="sm-box sm-box-cat" style="background-image: url('./img/category/cars/h2-desktop.png');">
                 </div>
               </div>
 
@@ -301,7 +300,7 @@
 
               <div class="col-cat-2">
                 <a href="./category/1.php?car=Cherokee"><h3 class="text-center cat-tab-design">Cherokee</h3></a>
-                <div class="sm-box sm-box-cat" style="background-image: url('./img/category/cars/cherokee.png');">
+                <div class="sm-box sm-box-cat" style="background-image: url('./img/category/cars/cherokee-desktop.png');">
                 </div>
               </div>
 
@@ -322,7 +321,7 @@
 
               <div class="col-cat-2">
                 <a href="./category/1.php?car=Navigator"><h3 class="text-center cat-tab-design">Navigator</h3></a>
-                <div class="sm-box sm-box-cat" style="background-image: url('./img/category/cars/navigator.png');">
+                <div class="sm-box sm-box-cat" style="background-image: url('./img/category/cars/navigator-desktop.png');">
                 </div>
 
               </div>
@@ -386,7 +385,7 @@
           <a href="#"><i class="fa fa-amazon" style="height: 42px; width: auto; padding-top: 10px;"></i></a>
 
         </div>
-        
+
       </div>
 
     </footer>
