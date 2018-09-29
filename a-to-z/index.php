@@ -72,7 +72,7 @@
                 <div class="add-five"></div>
                 <div class="card">
                   <figure>
-                   <img src="https://usa-auto.herokuapp.com/a-to-z/img/supply.jpg" class="front-img">
+                   <img src="https://usa-auto.herokuapp.com/a-to-z/img/supply.png" class="front-img">
                   </figure>
 
                   <div class="caption">
@@ -102,7 +102,7 @@
                 <div class="add-fifteen"></div>
                 <div class="card">
                   <figure>
-                   <img src="https://usa-auto.herokuapp.com/a-to-z/img/tool.jpg" class="front-img">
+                   <img src="https://usa-auto.herokuapp.com/a-to-z/img/tool.png" class="front-img">
                   </figure>
 
                   <div class="caption">
@@ -111,6 +111,37 @@
                 </div>
               </div>
             </a>
+
+            <a href="#first">
+              <div class="tbl-col">
+                <div class="add-twenty"></div>
+                <div class="card">
+                  <figure>
+                   <img src="https://usa-auto.herokuapp.com/a-to-z/img/vitamin.png" class="front-img">
+                  </figure>
+
+                  <div class="caption">
+                    <p>Vitamin</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#first">
+              <div class="tbl-col">
+                <div class="add-twenty-five"></div>
+                <div class="card">
+                  <figure>
+                   <img src="https://usa-auto.herokuapp.com/a-to-z/img/auto.png" class="front-img">
+                  </figure>
+
+                  <div class="caption">
+                    <p>auto</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+
 
           </div>
 
@@ -163,7 +194,7 @@
 
     <div class="encompass">
 
-      <div class="add-twenty"></div>
+      <div class="add-twelve"></div>
 
       <h2>ABOUT A-to-Z</h2>
 

@@ -134,8 +134,6 @@ header {
 	height: 100vh;
 }
 
-
-
 .add-eight {
 	height: 8vh;
 }
@@ -153,6 +151,14 @@ header {
 }
 
 .add-twenty {
+	height: 20vh;
+}
+
+.add-twenty-five {
+	height: 25vh;
+}
+
+.add-twelve {
 	height: 18vh;
 }
 
@@ -376,7 +382,7 @@ NAVIGATION BAR
 		left: 0;
 		padding-left: 0;
     z-index: -3;
-		background: linear-gradient(-170deg, rgba(157, 0, 0, .8) 40%, rgba(260, 260, 260, 1) 0%);
+		background: linear-gradient(-170deg, rgba(255, 94, 61, .8) 40%, rgba(260, 260, 260, 1) 0%);
 }
 
 .wallpaper {
@@ -401,13 +407,13 @@ BODY
 
 .tbl-col {
 	float: left;
-	width: 25%;
+	width: 16.667%;
 	padding: none;
 	padding: 0;
 	margin: 0;
 }
 .card {
- width: 250px;
+ width: 180px;
  box-shadow: 0px 16px 36px -7px rgba(51, 51, 51, .855);
  text-align: center;
  border-radius: 10px;
@@ -421,7 +427,7 @@ BODY
 
 figure {
  border-radius: 10px 10px 0 0;
- width: 250px;
+ width: 180px;
  height: auto;
  margin: 0;
  padding: 0;
@@ -435,7 +441,7 @@ figure:hover {
 }
 
 .front-img {
-	width: 250px;
+	width: 180px;
 	height: auto;
 	margin: 0;
 	padding: 0;
@@ -452,7 +458,7 @@ figure:hover {
 
 .caption {
 	 padding: 10px 0;
-	 font-size: 36px;
+	 font-size: 25px;
 }
 
 .caption p {
@@ -1023,7 +1029,7 @@ MOBILE
 
 .item {
 	background-color: rgba(0, 0, 0, .0);
-	height: 250px;
+	height: 180px;
 	width: auto;
 	flex: 0 0 29%;
 	margin: 1% 2%;
